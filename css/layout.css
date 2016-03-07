@@ -61,7 +61,7 @@
 	body {
 		background: #f7f7f7;
 		font: 18px/30px 'Lato', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #555;
+		color: #333;
 		font-weight: 300;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -178,6 +178,7 @@ ul.nav li a {
     text-decoration: none;
     text-transform: uppercase;
     padding-bottom: 5px;
+    border-bottom: 5px solid #f7f7f7;
 }
 ul.nav li.current-menu-item a, ul.nav li a:hover {
     color: #2D2D2D;
@@ -214,6 +215,31 @@ h1 {
     margin-bottom: 20px;
 }
 
+.whisky {
+  text-align: center;
+}
+
+li {
+  line-height: 24px;
+  list-style: disc;
+}
+
+.whisky li {
+  line-height: 24px;
+  padding: 10px 0px;
+  background: #ececec;
+  color: #070707;
+  list-style: none;
+}
+
+img.flag {
+  text-align: center;
+  display: inline-block;
+}
+
+p.updated {
+  font-size: 14px;
+}
 
 /* ================ Media Queries ================ */
 
