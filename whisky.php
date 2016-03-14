@@ -10,8 +10,8 @@
 <meta name="author" content="">
 
 <!-- ================ CSS ================ -->
-<link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/layout.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
@@ -36,13 +36,13 @@
 <header>
 	<div class="container">
 		<div class="logo sixteen columns">
-			<span class="tom">Tom Brooks</span>
+			<a href="http://www.tombrooks.co.uk"><span class="tom">Tom Brooks</span></a>
 		</div>
 		<div class="navigation sixteen columns">
 			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="photos.html">Photos</a></li>
-				<li><a href="now.html">Now</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/photos">Photos</a></li>
+				<li><a href="/now">Now</a></li>
 			</ul>
 		</div>
 	</div>
@@ -56,28 +56,29 @@
         <div class="clear"></div>
         <div class="whisky four columns offset-by-two">
           <ul>
-              <li><img src="images/sweden.png" class="flag"><br />Mackmyra<br />Midvinter</li>
-              <li><img src="images/us.png" class="flag"><br />Buffalo Trace<br />Bourbon</li>
-              <li><img src="images/scotland.png" class="flag"><br />Lagavulin<br />16 Year Old</li>
-              <li><img src="images/scotland.png" class="flag"><br />Glenkinchie<br />12 Year Old</li>
-              <li><img src="images/scotland.png" class="flag"><br />Highland Park<br />12 Year Old</li>
+              <li><img src="/images/sweden.png" class="flag"><br />Mackmyra<br />Midvinter</li>
+              <li><img src="/images/us.png" class="flag"><br />Buffalo Trace<br />Bourbon</li>
+              <li><img src="/images/japan.png" class="flag"><br />Hibiki<br />12 Year Old</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Glenkinchie<br />12 Year Old</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Highland Park<br />12 Year Old</li>
             </ul>
         </div>
         <div class="whisky four columns">
             <ul>
-              <li><img src="images/sweden.png" class="flag"><br />Mackmyra<br />Svensk Ek</li>
-              <li><img src="images/japan.png" class="flag"><br />Nikka<br />From The Barrel</li>
-              <li><img src="images/scotland.png" class="flag"><br />Caol Ila<br />12 Year Old</li>
-              <li><img src="images/scotland.png" class="flag"><br />Cu Bocan<br />Virgin Oak</li>
-              <li><img src="images/scotland.png" class="flag"><br />Balvenie<br />Doublewood</li>
+              <li><img src="/images/sweden.png" class="flag"><br />Mackmyra<br />Svensk Ek</li>
+              <li><img src="/images/japan.png" class="flag"><br />Nikka<br />From The Barrel</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Lagavulin<br />16 Year Old</li> 
+              <li><img src="/images/scotland.png" class="flag"><br />Caol Ila<br />12 Year Old</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Balvenie<br />Doublewood</li>
             </ul>
         </div>
         <div class="whisky four columns">
             <ul>
-              <li><img src="images/us.png" class="flag"><br />Eagle Rare<br />10 Year Old</li>
-              <li><img src="images/scotland.png" class="flag"><br />Ardbeg<br />Uigeadail</li>
-              <li><img src="images/scotland.png" class="flag"><br />Bruichladdich<br />The Classic Laddie</li>
-              <li><img src="images/scotland.png" class="flag"><br />Bruichladdich<br />Port Charlotte</li>
+              <li><img src="/images/us.png" class="flag"><br />Eagle Rare<br />10 Year Old</li>
+              <li><img src="/images/japan.png" class="flag"><br />Nikka<br /> Taketsuru</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Ardbeg<br />Uigeadail</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Bruichladdich<br />The Classic Laddie</li>
+              <li><img src="/images/scotland.png" class="flag"><br />Bruichladdich<br />Port Charlotte</li>
             </ul>
         </div>
     </div>

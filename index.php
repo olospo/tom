@@ -5,13 +5,12 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 <title>Tom Brooks</title>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=yes;" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
 <meta name="description" content="">
-<meta name="author" content="">
 
 <!-- ================ CSS ================ -->
-<link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/layout.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Open+Sans:400,700|Lato:300,400,700' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
@@ -24,10 +23,7 @@
 <script src="js/retina.js"></script>
 
 <!-- ================ Favicons ================ -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="/images/favicon.ico">
 
 <!-- ================ Google Analytics ================ -->
 </head>
@@ -36,13 +32,13 @@
 <header>
 	<div class="container">
 		<div class="logo sixteen columns">
-			<a href="http://www.tombrooks.co.uK"><span class="tom">Tom Brooks</span></a>
+			<a href="http://www.tombrooks.co.uk"><span class="tom">Tom Brooks</span></a>
 		</div>
         <div class="navigation sixteen columns">
 			<ul class="nav">
-				<li class="current-menu-item"><a href="index.html">Home</a></li>
-				<li><a href="photos.html">Photos</a></li>
-				<li><a href="now.html">Now</a></li>
+				<li class="current-menu-item"><a href="/">Home</a></li>
+				<li><a href="/photos">Photos</a></li>
+				<li><a href="/now">Now</a></li>
 			</ul>
 		</div>
 	</div>
@@ -52,7 +48,7 @@
     <div class="container">
         <div class="eight columns offset-by-four">
             <h1>Welcome</h1>
-            <p>Hi, I'm Tom Brooks. I also go under the alias of <a href="http://www.olospo.co.uk">olospo</a>. I'm a freelance developer and designer based in Bristol. I occasionally take <a href="photos.html">photos</a></p>
+            <p>Hi, I'm Tom Brooks. I'm a freelance developer and designer based in Bristol. This is my personal site where I share <a href="/now">what I'm doing now</a> along with the <a href="/photos">photos</a> i've been taking. For business stuff head over to <a href="http://www.olospo.co.uk">olospo</a>, for social stuff you can find me on <a href="https://twitter.com/olospo">twitter</a>.</p>
         </div>
     </div>
 </section>

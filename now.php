@@ -4,14 +4,13 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<title>Tom Brooks</title>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=yes;" />
+<title>What I'm doing now | Tom Brooks</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
 <meta name="description" content="">
-<meta name="author" content="">
 
 <!-- ================ CSS ================ -->
-<link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/layout.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
@@ -24,10 +23,7 @@
 <script src="js/retina.js"></script>
 
 <!-- ================ Favicons ================ -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="/images/favicon.ico">
 
 <!-- ================ Google Analytics ================ -->
 </head>
@@ -36,13 +32,13 @@
 <header>
 	<div class="container">
 		<div class="logo sixteen columns">
-			<span class="tom">Tom Brooks</span>
+			<a href="http://www.tombrooks.co.uk"><span class="tom">Tom Brooks</span></a>
 		</div>
 		<div class="navigation sixteen columns">
 			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="photos.html">Photos</a></li>
-				<li class="current-menu-item"><a href="now.html">Now</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/photos">Photos</a></li>
+				<li class="current-menu-item"><a href="/now">Now</a></li>
 			</ul>
 		</div>
 	</div>
@@ -56,7 +52,8 @@
               <li>Working as a <a href="http://www.olospo.co.uk/">freelance designer & developer</a>.</li>
               <li>Putting together monthly curated Spotify playlists on <a href="http://www.scattermusic.co.uk">Scatter Music</a></li>
               <li>Learning Danish with the help of <a href="https://www.duolingo.com">Duolingo</a></li>
-              <li>Member of a Bristol based Whisky Club. <a href="whisky.html">My Whisky Shelf</a></li>
+              <li>Member of a Bristol based Whisky Club. My <a href="/whisky">Whisky Shelf</a></li>
+              <li>Watching <a href="https://en.wikipedia.org/wiki/House_of_Cards_(U.S._TV_series)">House of Cards</a> on Netflix.</li>
             </ul>
             <p class="updated">Updated: March 2016</p>
         </div>
